@@ -4,7 +4,7 @@ function checkleapYear(num) {
   } else if (num % 100 !== 0 && num % 400 === 0) {
     return 'leap year';
   } else {
-    return 'it's not a leap year';
+    return 'it is not a leap year';
   }
 
 
